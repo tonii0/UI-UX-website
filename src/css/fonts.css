@@ -1,0 +1,98 @@
+@font-face {
+    font-family: geek; 
+    src: url("/assets/fonts/geek.ttf") format("opentype");
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: silk; 
+    src: url("/assets/fonts/Silk_regular.otf") format("opentype");
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: laviossa; 
+    src: url("/assets/fonts/Laviossa-Medium.otf") format("opentype");
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: dalek; 
+    src: url("/assets/fonts/DalekPinpointBold.ttf") format("opentype");
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: roman; 
+    src: url("/assets/fonts/Roman.ttf") format("opentype");
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: kaushan; 
+    src: url("/assets/fonts/KaushanScript-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Voyage_Regular;
+    font-display: swap;
+    src: url("/assets/fonts/Voyage-Regular.ttf");
+    src: url("/assets/fonts/Voyage-Regular?#iefix") format("embedded-opentype"), url("/fonts/Voyage-Regular.woff") format("woff") url("/fonts/Voyage-Regular.woff2") format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Voyage_Bold;
+    font-display: block;
+    src: url("/assets/fonts/Voyage-Bold.ttf");
+    src: url("/assets/fonts/Voyage-Bold?#iefix") format("embedded-opentype"), url("/fonts/Voyage-Bold.woff") format("woff") url("/fonts/Voyage-Bold.woff2") format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: KobeWeb_Regular;
+    font-display: swap;
+    src: url("/assets//fonts/KobeWeb-Regular.ttf");
+    src: url("/assets//fonts/KobeWeb-Regular?#iefix") format("embedded-opentype"), url("/fonts/KobeWeb-Regular.woff") format("woff") url("/fonts/KobeWeb-Regular.woff2") format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Staff_Medium;
+    font-display: swap;
+    src: url("/assets/fonts/Staff-Medium.ttf");
+    src: url("/assets/fonts/Staff-Medium?#iefix") format("embedded-opentype"), url("/fonts/Staff-Medium.woff") format("woff"), url("/fonts/Staff-Medium.ttf") format("truetype") url("/fonts/Staff-Medium.woff2") format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Staff_Regular;
+    font-display: swap;
+    src: url("/assets/fonts/Staff-Regular.ttf");
+    src: url("/assets/fonts/Staff-Regular?#iefix") format("embedded-opentype"), url("/fonts/Staff-Regular.woff") format("woff"), url("/fonts/Staff-Regular.ttf") format("truetype") url("/fonts/Staff-Regular.woff2") format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Staff_Light;
+    font-display: swap;
+    src: url("/assets/fonts/Staff-Light.ttf");
+    src: url("/assets/fonts/Staff-Light?#iefix") format("embedded-opentype"), url("/fonts/Staff-Light.woff") format("woff"), url("/fonts/Staff-Light.ttf") format("truetype") url("/fonts/Staff-Light.woff2") format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Staff_Light;
+    font-display: swap;
+    src: url("/assets/fonts/Staff-Light.ttf");
+    src: url("/assets/fonts/Staff-Light?#iefix") format("embedded-opentype"), url("/fonts/Staff-Light.woff") format("woff"), url("/fonts/Staff-Light.ttf") format("truetype") url("/fonts/Staff-Light.woff2") format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Kuruso;
+    font-display: swap;
+    src: url("/assets/fonts/kurosu.woff2") format("opentype");
+    font-style: normal;
+}
+

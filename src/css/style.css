@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-moz-selection {
+  background: #fcc5cb;
+  text-shadow: none;
+}
+
+::selection {
+  background: #fcc5cb;
+  text-shadow: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.landing_page {
+  height: 100vh;
+  width: 100vw;
+}
+.landing_page .landing_page_wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.landing_page_wrapper_left {
+  height: 100%;
+  width: 30%;
+}
+.landing_page_wrapper_left .lpw_left_container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-left: 4vw;
+}
+
+.lpw_left_container_top {
+  height: 40%;
+  width: 100%;
+}
+.lpw_left_container_top .lpwlc_top_contain {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.lpw_left_container_top .lpwlc_top_contain_logo {
+  background: #000;
+  height: 40%;
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 1.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.lpw_left_container_top .lpwlc_top_contain_logo img {
+  height: auto;
+  max-height: 80px;
+  max-width: 80px;
+  width: 100%;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+.lpw_left_container_top .lpwlc_top_contain_logo img:hover {
+  transform: rotate(360deg);
+}
+.lpw_left_container_top .lpwlc_top_contain_ui_ux {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.lpw_left_container_top .lpwlc_top_contain_ui_ux span {
+  line-height: 16rem;
+  color: #fff;
+  text-shadow: 10px 10px 25px rgba(143, 143, 143, 0.473);
+  font-size: max(20rem, 15px);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.lpw_left_container_center {
+  height: 40%;
+  width: 100%;
+}
+.lpw_left_container_center .lpwlc_center_contain {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.lpw_left_container_center .lpwlc_center_contain .lpwlc_center_contain_subtitle {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.lpw_left_container_center .lpwlc_center_contain .lpwlc_center_contain_subtitle span {
+  color: #000;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+}
+.lpw_left_container_center .lpwlc_center_contain .lpwlc_center_contain_writing {
+  height: 80%;
+  width: 100%;
+  padding-left: 3vw;
+}
+.lpw_left_container_center .lpwlc_center_contain .lpwlc_center_contain_writing .lpwlc_center_contain_writing_row {
+  height: 35%;
+  width: 60%;
+}
+.lpw_left_container_center .lpwlc_center_contain .lpwlc_center_contain_writing .lpwlc_center_contain_writing_row h1 {
+  color: #000;
+  font-weight: 700;
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+}
+.lpw_left_container_center .lpwlc_center_contain .lpwlc_center_contain_writing_row2 {
+  height: 50%;
+  width: 65%;
+}
+.lpw_left_container_center .lpwlc_center_contain .lpwlc_center_contain_writing_row2 p {
+  color: #000;
+  line-height: 2.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.lpw_left_container_bottom {
+  position: absolute;
+  height: 20%;
+  width: 65vw;
+  background: #000;
+}
+.lpw_left_container_bottom .lpwlc_bottom_contain {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.lpw_left_container_bottom .lpwlc_bottom_contain .lpwlc_bottom_contain_left {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.lpw_left_container_bottom .lpwlc_bottom_contain .lpwlc_bottom_contain_left h3 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 3rem;
+  letter-spacing: 0.05rem;
+}
+.lpw_left_container_bottom .lpwlc_bottom_contain .lpwlc_bottom_contain_right {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.lpw_left_container_bottom .lpwlc_bottom_contain .lpwlc_bottom_contain_right p {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.landing_page_wrapper_right {
+  height: 100%;
+  width: 70%;
+}
+.landing_page_wrapper_right .lpw_right_container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.lpw_right_container_top {
+  height: 85%;
+  width: 100%;
+}
+.lpw_right_container_top .lpwrc_top_contain_image {
+  height: 100%;
+  width: 100%;
+  background: url("/assets/images/Virtual-Reality-Game-Man-1200x800.jpg") no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.lpw_right_container_bottom {
+  height: 15%;
+  width: 100%;
+}
+.lpw_right_container_bottom .lpwrc_bottom_contain {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.lpw_right_container_bottom .lpwrc_bottom_contain .lpwrcb_contain_emailme {
+  width: 31vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 3rem;
+}
+.lpw_right_container_bottom .lpwrc_bottom_contain .lpwrcb_contain_emailme a {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+.lpw_right_container_bottom .lpwrc_bottom_contain .lpwrcb_contain_emailme a:nth-child(1) {
+  font-weight: 700;
+}
+.lpw_right_container_bottom .lpwrc_bottom_contain .lpwrcb_contain_emailme a:nth-child(2) {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 30%;
+  }
+
+  .lpw_left_container_top .lpwlc_top_contain_ui_ux {
+    display: none;
+  }
+
+  .lpw_left_container_top .lpwlc_top_contain_logo {
+    width: 50%;
+  }
+
+  .lpw_left_container_center .lpwlc_center_contain .lpwlc_center_contain_writing .lpwlc_center_contain_writing_row {
+    height: 20%;
+  }
+
+  .lpw_left_container_center .lpwlc_center_contain .lpwlc_center_contain_subtitle {
+    height: 10%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
